@@ -21,7 +21,7 @@
  * @struct: _gn_string
  * @property:  _ptr    pointer to allocated buffer
  * @property:  _alloc  size(in bytes) of the allocated buffer
- * @property:  _cons   size(in bytes) of the buffer that is consumed, including NULL bit
+ * @property:  _cons   size(in bytes) of the buffer that is consumed, including NULL byte
  */
 typedef struct GNSTRING
 {
